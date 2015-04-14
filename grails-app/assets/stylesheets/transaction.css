@@ -1,0 +1,15 @@
+.transaction-page {
+    margin: 12px;
+}
+.transaction-page h2 {
+     color: #48802c;
+ }
+
+#person-txns {
+    margin: 16px;
+}
+
+.person-balance,
+.txn-amount {
+    font-weight: bold;
+}

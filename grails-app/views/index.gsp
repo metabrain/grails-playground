@@ -109,6 +109,15 @@
 			   content you may choose. Below is a list of controllers that are currently deployed in this application,
 			   click on each to execute its default action:</p>
 
+			<div id="controller-list" style="font-size: 26px" role="navigation">
+				<h2>Pages for exercise Codingchallenge-Ex3:</h2>
+				<ul>
+					<li class="controller"><a href="/parreira/person/index">Transaction page</a></li>
+					<li class="controller"><a href="/parreira/txn/create">Pay page</a></li>
+
+				</ul>
+			</div>
+
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
 				<ul>

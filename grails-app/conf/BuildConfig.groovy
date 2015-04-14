@@ -55,17 +55,19 @@ grails.project.dependency.resolution = {
 
     plugins {
         // plugins for the build system only
-        build ":tomcat:7.0.55.2" // or ":tomcat:8.0.20"
+        build ":tomcat:7.0.55"
 
         // plugins for the compile step
         compile ":scaffolding:2.1.2"
         compile ':cache:1.1.8'
-        compile ":asset-pipeline:2.1.5"
+        compile ":asset-pipeline:1.9.9"
+        compile ":mail:1.0.7"
+        compile ":greenmail:1.3.4" //testing and sending emails
 
         // plugins needed at runtime but not for compilation
-        runtime ":hibernate4:4.3.8.1" // or ":hibernate:3.6.10.18"
+        runtime ":hibernate4:4.3.6.1" // or ":hibernate:3.6.10.18"
         runtime ":database-migration:1.4.0"
-        runtime ":jquery:1.11.1"
+        runtime ":jquery:1.11.1" //crashing for some reason while compiling... using manually
 
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.9.0"
